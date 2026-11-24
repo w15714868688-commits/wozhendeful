@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+<title id="title">航程与所需电池质量的第一性原理核算</title>
+<desc id="desc">在 880 公斤最大起飞重量、255 Wh/kg pack、200 kW 巡航功率的假设下，20 公里航程约需 260 公斤电池；500 公里约需 6.5 吨电池，约为最大起飞重量的 7.4 倍。</desc>
+<defs>
+  <linearGradient id="feas" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0" stop-color="#39d5c8" stop-opacity=".16"/><stop offset="1" stop-color="#39d5c8" stop-opacity="0"/>
+  </linearGradient>
+  <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8b949e"/></marker>
+</defs>
+<rect width="960" height="520" fill="#0b0f14"/>
+<g font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <line x1="95" y1="430" x2="890" y2="430" stroke="#8b949e" stroke-width="1.2"/>
+  <line x1="95" y1="430" x2="95" y2="70" stroke="#8b949e" stroke-width="1.2"/>
+  <g fill="#8b949e" font-size="12">
+    <text x="95" y="455" text-anchor="middle">0</text><text x="256" y="455" text-anchor="middle">15</text>
+    <text x="417" y="455" text-anchor="middle">30</text><text x="578" y="455" text-anchor="middle">45</text>
+    <text x="739" y="455" text-anchor="middle">60</text><text x="880" y="455" text-anchor="middle">75</text>
+    <text x="492" y="490" text-anchor="middle" fill="#f4f0e8" font-size="13">设计航程 / km</text>
+    <text x="42" y="255" transform="rotate(-90 42 255)" text-anchor="middle" fill="#f4f0e8" font-size="13">所需电池质量 / kg</text>
+  </g>
+  <g stroke="#ffffff" stroke-opacity=".07">
+    <line x1="95" y1="430" x2="890" y2="430"/><line x1="95" y1="310" x2="890" y2="310"/>
+    <line x1="95" y1="190" x2="890" y2="190"/><line x1="95" y1="70" x2="890" y2="70"/>
+  </g>
+  <g fill="#6e7681" font-size="11">
+    <text x="78" y="434" text-anchor="end">0</text><text x="78" y="314" text-anchor="end">300</text>
+    <text x="78" y="194" text-anchor="end">600</text><text x="78" y="74" text-anchor="end">900</text>
+  </g>
+  <rect x="95" y="75" width="795" height="355" fill="url(#feas)"/>
+  <line x1="95" y1="78" x2="890" y2="78" stroke="#ff5a1f" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="884" y="68" text-anchor="end" fill="#ff5a1f" font-size="12">MTOW 880 kg</text>
+  <line x1="95" y1="430" x2="636" y2="78" stroke="#39d5c8" stroke-width="3"/>
+  <g fill="#39d5c8">
+    <circle cx="270" cy="322" r="6"/><circle cx="636" cy="78" r="5"/>
+  </g>
+  <g fill="#f4f0e8" font-size="13">
+    <text x="282" y="314">20 km ≈ 260 kg</text>
+    <text x="282" y="334" fill="#8b949e" font-size="11">≈ 30% MTOW，刚好是 20 min 的量级</text>
+    <text x="646" y="72" fill="#39d5c8">理论极限 ≈ 67 km</text>
+    <text x="646" y="90" fill="#8b949e" font-size="11">假设整机 880 kg 全是电池</text>
+  </g>
+  <g transform="translate(700 160)">
+    <rect x="0" y="0" width="200" height="86" rx="4" fill="#151a1f" stroke="#ff5a1f" stroke-width="1"/>
+    <text x="12" y="24" fill="#ff5a1f" font-size="12">500 km 需要多少电池？</text>
+    <text x="12" y="46" fill="#f4f0e8" font-size="20" font-family="Consolas, monospace">≈ 6,500 kg</text>
+    <text x="12" y="68" fill="#8b949e" font-size="11">≈ 7.4 × MTOW；图中已放不下</text>
+  </g>
+  <g fill="#6e7681" font-size="11">
+    <text x="95" y="508">假设：巡航功率 200 kW、速度 60 km/h、pack 比能量 255 Wh/kg、放电深度 100%；仅用于数量级校验，不是官方性能模型。</text>
+  </g>
+</g>
+</svg>

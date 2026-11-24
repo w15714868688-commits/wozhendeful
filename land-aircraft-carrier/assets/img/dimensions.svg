@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">X3-F 展开与折叠尺寸对比</title>
+<desc id="desc">X3-F 展开时 6.834 米长、6.340 米宽，折叠后 2.934 米长、1.777 米宽，可放入 5.5 米长的陆行体后舱。</desc>
+<defs>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M20 0H0V20" fill="none" stroke="#ffffff" stroke-opacity=".045" stroke-width="1"/>
+  </pattern>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#8b949e"/>
+  </marker>
+</defs>
+<rect width="1200" height="620" fill="#0b0f14"/>
+<rect width="1200" height="620" fill="url(#grid)"/>
+<g font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <text x="60" y="46" fill="#f4f0e8" font-size="17" letter-spacing="2">A / 展开 UNFOLDED</text>
+  <text x="60" y="72" fill="#8b949e" font-size="12">6 轴 6 桨 · 双涵道 · 定距桨</text>
+  <text x="470" y="46" fill="#f4f0e8" font-size="17" letter-spacing="2">B / 折叠 FOLDED</text>
+  <text x="470" y="72" fill="#8b949e" font-size="12">机臂、桨叶、橇式起落架收拢</text>
+  <text x="840" y="46" fill="#f4f0e8" font-size="17" letter-spacing="2">C / 收纳 STOWED</text>
+  <text x="840" y="72" fill="#8b949e" font-size="12">陆行体后舱 · 5.5 m 车长</text>
+
+  <g transform="translate(245 330)">
+    <g stroke="#f4f0e8" stroke-width="7" stroke-linecap="round">
+      <line x1="0" y1="-60" x2="-118" y2="-164"/>
+      <line x1="0" y1="-60" x2="118" y2="-164"/>
+      <line x1="-52" y1="0" x2="-150" y2="0"/>
+      <line x1="52" y1="0" x2="150" y2="0"/>
+      <line x1="0" y1="60" x2="-118" y2="164"/>
+      <line x1="0" y1="60" x2="118" y2="164"/>
+    </g>
+    <g fill="none" stroke="#39d5c8" stroke-width="2.5">
+      <circle cx="-118" cy="-164" r="36"/><circle cx="118" cy="-164" r="36"/>
+      <circle cx="-150" cy="0" r="36"/><circle cx="150" cy="0" r="36"/>
+      <circle cx="-118" cy="164" r="36"/><circle cx="118" cy="164" r="36"/>
+    </g>
+    <g stroke="#39d5c8" stroke-opacity=".55" stroke-width="1.4">
+      <line x1="-154" y1="-164" x2="-82" y2="-164"/><line x1="-118" y1="-200" x2="-118" y2="-128"/>
+      <line x1="82" y1="-164" x2="154" y2="-164"/><line x1="118" y1="-200" x2="118" y2="-128"/>
+      <line x1="-186" y1="0" x2="-114" y2="0"/><line x1="-150" y1="-36" x2="-150" y2="36"/>
+      <line x1="114" y1="0" x2="186" y2="0"/><line x1="150" y1="-36" x2="150" y2="36"/>
+      <line x1="-154" y1="164" x2="-82" y2="164"/><line x1="-118" y1="128" x2="-118" y2="200"/>
+      <line x1="82" y1="164" x2="154" y2="164"/><line x1="118" y1="128" x2="118" y2="200"/>
+    </g>
+    <rect x="-31" y="-82" width="62" height="164" rx="28" fill="#151a1f" stroke="#f4f0e8" stroke-width="2.5"/>
+    <rect x="-22" y="-58" width="44" height="86" rx="18" fill="#39d5c8" fill-opacity=".16" stroke="#39d5c8" stroke-width="1.5"/>
+    <line x1="0" y1="-82" x2="0" y2="-96" stroke="#f4f0e8" stroke-width="2"/>
+    <g stroke="#8b949e" stroke-width="1.2" fill="#8b949e" font-size="13">
+      <line x1="-180" y1="-200" x2="-180" y2="200" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <line x1="-186" y1="220" x2="186" y2="220" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <text x="0" y="244" text-anchor="middle">6.340 m</text>
+    </g>
+    <text x="0" y="-226" text-anchor="middle" fill="#ff5a1f" font-size="12" letter-spacing="1">展开 6.834 × 6.340 m · 占地约 43 m²</text>
+  </g>
+
+  <g transform="translate(620 330)">
+    <rect x="-38" y="-63" width="76" height="126" rx="20" fill="#151a1f" stroke="#f4f0e8" stroke-width="2.5"/>
+    <rect x="-26" y="-42" width="52" height="66" rx="16" fill="#39d5c8" fill-opacity=".12" stroke="#39d5c8" stroke-width="1.5"/>
+    <g stroke="#f4f0e8" stroke-width="4" stroke-linecap="round">
+      <line x1="-38" y1="-45" x2="-54" y2="-20"/><line x1="38" y1="-45" x2="54" y2="-20"/>
+      <line x1="-38" y1="0" x2="-58" y2="0"/><line x1="38" y1="0" x2="58" y2="0"/>
+      <line x1="-38" y1="45" x2="-54" y2="20"/><line x1="38" y1="45" x2="54" y2="20"/>
+    </g>
+    <g fill="none" stroke="#39d5c8" stroke-width="1.8">
+      <circle cx="-58" cy="-24" r="17"/><circle cx="58" cy="-24" r="17"/>
+      <circle cx="-62" cy="0" r="17"/><circle cx="62" cy="0" r="17"/>
+      <circle cx="-58" cy="24" r="17"/><circle cx="58" cy="24" r="17"/>
+    </g>
+    <g stroke="#8b949e" stroke-width="1.2" fill="#8b949e" font-size="13">
+      <line x1="-92" y1="-66" x2="-92" y2="66" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <text x="-116" y="6" transform="rotate(-90 -116 6)" text-anchor="middle">2.934 m</text>
+      <line x1="-80" y1="92" x2="80" y2="92" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <text x="0" y="116" text-anchor="middle">1.777 m</text>
+    </g>
+    <text x="0" y="-92" text-anchor="middle" fill="#39d5c8" font-size="12">折叠体积约 6.8 m³</text>
+  </g>
+
+  <g transform="translate(1000 330)">
+    <rect x="-124" y="-46" width="248" height="92" rx="20" fill="none" stroke="#f4f0e8" stroke-width="2.5"/>
+    <rect x="-112" y="-35" width="56" height="70" rx="14" fill="#151a1f" stroke="#8b949e" stroke-width="1.2"/>
+    <rect x="34" y="-38" width="80" height="76" rx="12" fill="#39d5c8" fill-opacity=".08" stroke="#39d5c8" stroke-width="1.4" stroke-dasharray="5 4"/>
+    <g transform="translate(74 0) scale(.62)">
+      <rect x="-38" y="-63" width="76" height="126" rx="20" fill="#151a1f" stroke="#39d5c8" stroke-width="3"/>
+      <g stroke="#39d5c8" stroke-width="3">
+        <line x1="-38" y1="-45" x2="-54" y2="-20"/><line x1="38" y1="-45" x2="54" y2="-20"/>
+        <line x1="-38" y1="0" x2="-58" y2="0"/><line x1="38" y1="0" x2="58" y2="0"/>
+        <line x1="-38" y1="45" x2="-54" y2="20"/><line x1="38" y1="45" x2="54" y2="20"/>
+      </g>
+    </g>
+    <g fill="#0b0f14" stroke="#8b949e" stroke-width="1.5">
+      <circle cx="-92" cy="-46" r="13"/><circle cx="-92" cy="46" r="13"/>
+      <circle cx="-30" cy="-46" r="13"/><circle cx="-30" cy="46" r="13"/>
+      <circle cx="92" cy="-46" r="13"/><circle cx="92" cy="46" r="13"/>
+    </g>
+    <g stroke="#8b949e" stroke-width="1.2" fill="#8b949e" font-size="13">
+      <line x1="-124" y1="76" x2="124" y2="76" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <text x="0" y="100" text-anchor="middle">5.5 m</text>
+    </g>
+    <text x="0" y="-74" text-anchor="middle" fill="#ff5a1f" font-size="12">后舱收纳 · 不占乘员空间</text>
+  </g>
+
+</g>
+</svg>

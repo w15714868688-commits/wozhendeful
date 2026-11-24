@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+<title id="title">飞行汽车产品定位图</title>
+<desc id="desc">横轴为道路行驶能力，纵轴为航程（对数）。陆地航母 X3-F 位于高道路能力、20 公里短航程的右下区域；EH216-S、Joby、AE200、A868 位于低道路能力、较长航程的左侧；Alef 与 PAL-V 位于右上。</desc>
+<rect width="960" height="560" fill="#0b0f14"/>
+<g font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <g stroke="#ffffff" stroke-opacity=".08">
+    <line x1="100" y1="460" x2="880" y2="460"/><line x1="100" y1="100" x2="880" y2="100"/>
+    <line x1="100" y1="460" x2="100" y2="100"/><line x1="880" y1="460" x2="880" y2="100"/>
+    <line x1="100" y1="370" x2="880" y2="370"/><line x1="100" y1="280" x2="880" y2="280"/><line x1="100" y1="190" x2="880" y2="190"/>
+    <line x1="256" y1="100" x2="256" y2="460"/><line x1="412" y1="100" x2="412" y2="460"/><line x1="568" y1="100" x2="568" y2="460"/><line x1="724" y1="100" x2="724" y2="460"/>
+  </g>
+  <g fill="#8b949e" font-size="12">
+    <text x="100" y="484" text-anchor="middle">0</text><text x="256" y="484" text-anchor="middle">1</text>
+    <text x="412" y="484" text-anchor="middle">2</text><text x="568" y="484" text-anchor="middle">3</text>
+    <text x="724" y="484" text-anchor="middle">4</text><text x="880" y="484" text-anchor="middle">5</text>
+    <text x="490" y="522" text-anchor="middle" fill="#f4f0e8" font-size="13">道路行驶能力（定性评分）</text>
+    <text x="46" y="280" transform="rotate(-90 46 280)" text-anchor="middle" fill="#f4f0e8" font-size="13">航程 / km（对数）</text>
+  </g>
+  <g fill="#6e7681" font-size="11" text-anchor="end">
+    <text x="92" y="464">10</text><text x="92" y="374">30</text><text x="92" y="284">100</text><text x="92" y="194">300</text><text x="92" y="108">600</text>
+  </g>
+  <g fill="#ffffff" fill-opacity=".18" font-size="13" letter-spacing="1">
+    <text x="116" y="146">长航程 · 空中交通</text>
+    <text x="714" y="126" text-anchor="end">陆空两栖</text>
+    <text x="700" y="338" text-anchor="end">短途 · 个人娱乐</text>
+    <text x="116" y="440">纯 eVTOL</text>
+  </g>
+  <g><circle cx="755" cy="406" r="15" fill="#ff5a1f"/><circle cx="755" cy="406" r="15" fill="none" stroke="#ff5a1f" stroke-opacity=".3" stroke-width="8"/>
+    <text x="755" y="378" text-anchor="middle" fill="#ff5a1f" font-size="13" font-weight="bold">陆地航母 X3-F</text>
+    <text x="755" y="393" text-anchor="middle" fill="#8b949e" font-size="10">20 km · 2 座 · ¥200 万</text></g>
+  <g><circle cx="122" cy="369" r="13" fill="#4c8dff"/>
+    <text x="142" y="366" fill="#4c8dff" font-size="12">EH216-S</text><text x="142" y="381" fill="#8b949e" font-size="10">30 km · 已四证</text></g>
+  <g><circle cx="112" cy="214" r="12" fill="#8b949e"/>
+    <text x="132" y="230" fill="#c9d1d9" font-size="12">Joby S4</text><text x="132" y="245" fill="#8b949e" font-size="10">160 km · 适航中</text></g>
+  <g><circle cx="118" cy="192" r="13" fill="#39d5c8"/>
+    <text x="138" y="188" fill="#39d5c8" font-size="12">AE200</text><text x="138" y="203" fill="#8b949e" font-size="10">200 km · 3–6 座</text></g>
+  <g><circle cx="108" cy="107" r="14" fill="#c8f169"/>
+    <text x="128" y="102" fill="#c8f169" font-size="12">A868</text><text x="128" y="117" fill="#8b949e" font-size="10">500 km · 6 座</text></g>
+  <g><circle cx="724" cy="204" r="13" fill="#b48cff"/>
+    <text x="706" y="187" text-anchor="end" fill="#b48cff" font-size="12">Alef Model A</text><text x="706" y="202" text-anchor="end" fill="#8b949e" font-size="10">177 km · 陆空两栖</text></g>
+  <g><circle cx="802" cy="107" r="13" fill="#7ee787"/>
+    <text x="784" y="90" text-anchor="end" fill="#7ee787" font-size="12">PAL-V Liberty</text><text x="784" y="105" text-anchor="end" fill="#8b949e" font-size="10">500 km · 旋翼机</text></g>
+  <g transform="translate(470 300)">
+    <line x1="-110" y1="60" x2="-20" y2="0" stroke="#ff5a1f" stroke-opacity=".5" stroke-dasharray="4 4"/>
+    <text x="0" y="0" fill="#f4f0e8" font-size="13">X3-F 的独特生态位：</text>
+    <text x="0" y="20" fill="#8b949e" font-size="11">不是“飞得更远”，而是“把飞机带走”。</text>
+  </g>
+  <g fill="#6e7681" font-size="11">
+    <text x="100" y="544">注：横轴为本报告定性评分（0 = 不能上路，5 = 可日常道路行驶）；纵轴为公开航程口径，跨类别仅作定位示意，不代表直接竞争。</text>
+  </g>
+</g>
+</svg>
